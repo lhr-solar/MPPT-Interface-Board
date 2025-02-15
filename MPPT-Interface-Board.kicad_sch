@@ -3050,6 +3050,10 @@
 		(uuid "46f974a1-0452-484d-a066-8bbd6fbdc24f")
 	)
 	(no_connect
+		(at 72.39 35.56)
+		(uuid "4954bc09-e5a3-4ee7-b865-cd529c50f448")
+	)
+	(no_connect
 		(at 72.39 63.5)
 		(uuid "85695851-f62e-4c90-bf3d-508f255a51bb")
 	)
@@ -3068,6 +3072,10 @@
 	(no_connect
 		(at 93.98 30.48)
 		(uuid "ce0fb117-afbe-4877-9f29-1e0cf963b373")
+	)
+	(no_connect
+		(at 59.69 35.56)
+		(uuid "debd3427-feee-4d29-b963-72f4464587af")
 	)
 	(no_connect
 		(at 27.94 63.5)
@@ -3219,6 +3227,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 30.48) (xy 81.28 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2139a3c3-b8e1-4613-885e-509602fa6394")
+	)
+	(wire
+		(pts
 			(xy 207.01 88.9) (xy 204.47 88.9)
 		)
 		(stroke
@@ -3259,7 +3277,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 58.42) (xy 80.01 58.42)
+			(xy 72.39 58.42) (xy 81.28 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3459,6 +3477,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 33.02) (xy 81.28 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a12814a-c06a-4ec8-b3aa-59649fca705b")
+	)
+	(wire
+		(pts
 			(xy 40.64 30.48) (xy 48.26 30.48)
 		)
 		(stroke
@@ -3506,16 +3534,6 @@
 			(type default)
 		)
 		(uuid "7f47d2ae-11e6-4420-8beb-bda90716ea9d")
-	)
-	(wire
-		(pts
-			(xy 54.61 30.48) (xy 62.23 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f4de9bc-56f5-4f77-b3af-62cd9e6fde83")
 	)
 	(wire
 		(pts
@@ -3659,6 +3677,36 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 30.48) (xy 55.88 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98823728-04e8-43c0-a183-936691232bc1")
+	)
+	(wire
+		(pts
+			(xy 55.88 30.48) (xy 55.88 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dd654d9-eabf-493c-b7e9-7e5b6a4ddf52")
+	)
+	(wire
+		(pts
+			(xy 55.88 33.02) (xy 55.88 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1083467-51c8-4f91-8098-3b9b4630f017")
+	)
+	(wire
+		(pts
 			(xy 39.37 105.41) (xy 39.37 87.63)
 		)
 		(stroke
@@ -3719,7 +3767,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 60.96) (xy 80.01 60.96)
+			(xy 72.39 60.96) (xy 81.28 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3819,16 +3867,6 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 33.02) (xy 62.23 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce577049-936f-4bc5-a6a8-95cac9a20c88")
-	)
-	(wire
-		(pts
 			(xy 123.19 48.26) (xy 123.19 60.96)
 		)
 		(stroke
@@ -3876,6 +3914,16 @@
 			(type default)
 		)
 		(uuid "d9de806d-3634-472c-b796-7641f9a59234")
+	)
+	(wire
+		(pts
+			(xy 59.69 33.02) (xy 55.88 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9e2c9a9-191b-4813-8e70-e38f4274f027")
 	)
 	(wire
 		(pts
@@ -4043,7 +4091,7 @@
 		)
 		(uuid c43351ca-4f21-4dd9-8cfc-bf871da1c396)
 	)
-	(text_box "Board Notes:\nPLS DOCUMENT ISOLATION ETC\n\nAccording to MPPT datasheet, acceptable VCAN is 6V-48V. Each MPPT CAN transceiver draws 75mA nominal, so this board can support up to 4 MPPTs (unverified!)\n\nRef: https://www.tpee.nl/wp-content/uploads/2024/11/SEC-B175-7A-Datasheet-rev5.pdf\n\nSolder CAN TERM jumper if this board is a terminating end for CarCAN."
+	(text_box "Board Notes:\nPLS DOCUMENT WHAT TO CONNECT WHERE & MPPT CAN TOPOLOGY\n\nAccording to MPPT datasheet, acceptable VCAN is 6V-48V. Each MPPT CAN transceiver draws 75mA nominal, so this board can support up to 4 MPPTs (unverified!)\n\nRef: https://www.tpee.nl/wp-content/uploads/2024/11/SEC-B175-7A-Datasheet-rev5.pdf\n\nSolder CAN TERM jumper if this board is a terminating end for CarCAN."
 		(exclude_from_sim no)
 		(at 19.05 118.11 0)
 		(size 97.79 35.56)
@@ -4242,8 +4290,8 @@
 		)
 		(uuid "516b3b68-b4cd-43e3-adca-217811e914cc")
 	)
-	(label "CAN_H"
-		(at 80.01 58.42 180)
+	(label "CAN_H2"
+		(at 81.28 58.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4275,6 +4323,17 @@
 		)
 		(uuid "2289a4bd-ef6f-4a4a-80aa-6c6af3674cc1")
 	)
+	(label "CAN_L2"
+		(at 81.28 33.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2c1ddf38-8b7d-4096-a236-0631fddd2c87")
+	)
 	(label "CAN_H"
 		(at 48.26 58.42 180)
 		(fields_autoplaced yes)
@@ -4296,17 +4355,6 @@
 			(justify left bottom)
 		)
 		(uuid "306beb4a-44dd-430b-bc0f-3a5a38573a52")
-	)
-	(label "CAN_H"
-		(at 54.61 30.48 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "73be1c9c-bd8f-452f-945b-3d578f4ddb88")
 	)
 	(label "CAN_L"
 		(at 39.37 105.41 90)
@@ -4341,19 +4389,8 @@
 		)
 		(uuid "94aa2ed2-789f-4a6d-b4fe-8523c9f6e215")
 	)
-	(label "CAN_L"
-		(at 54.61 33.02 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9bd98991-26ac-4772-9c27-7f7d97c7f6b8")
-	)
-	(label "CAN_L"
-		(at 80.01 60.96 180)
+	(label "CAN_L2"
+		(at 81.28 60.96 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4362,6 +4399,17 @@
 			(justify right bottom)
 		)
 		(uuid "a48a42fa-7689-43b7-824c-5332d7cddea2")
+	)
+	(label "CAN_H2"
+		(at 81.28 30.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ee148d6f-5bdc-4d64-a835-9d5883586fcf")
 	)
 	(label "CAN_L"
 		(at 86.36 27.94 0)
@@ -4392,7 +4440,7 @@
 				)
 			)
 		)
-		(property "Value" "CarCAN 2"
+		(property "Value" "CarCAN Out"
 			(at 66.04 54.61 0)
 			(effects
 				(font
@@ -4734,7 +4782,7 @@
 				)
 			)
 		)
-		(property "Value" "MPPT CAN 1"
+		(property "Value" "MPPT A"
 			(at 34.29 26.67 0)
 			(effects
 				(font
@@ -5410,7 +5458,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TODO"
+		(property "Value" "1.69k"
 			(at 141.478 93.853 0)
 			(effects
 				(font
@@ -6017,7 +6065,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "CGND"
+		(property "Value" "CGND2"
 			(at 55.88 70.104 0)
 			(effects
 				(font
@@ -6346,7 +6394,7 @@
 				)
 			)
 		)
-		(property "Value" "CarCAN 1"
+		(property "Value" "CarCAN In"
 			(at 34.29 54.61 0)
 			(effects
 				(font
@@ -6961,6 +7009,113 @@
 			(project "MPPT-Interface-Board"
 				(path "/b7de5949-1fc3-44b6-95a7-0faccc8a2b33"
 					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x03_Top_Bottom")
+		(at 64.77 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7792f8b6-d764-4ac1-9c23-30a2e471f822")
+		(property "Reference" "J2"
+			(at 66.04 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MPPT X"
+			(at 66.04 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0612_2x03_P3.00mm_Vertical"
+			(at 64.77 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x03, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 64.77 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "430450612"
+			(at 64.77 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 64.77 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 64.77 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bdc7c724-e4f9-4576-93e0-b05a1e9a7e03")
+		)
+		(pin "2"
+			(uuid "e9dba130-8616-48cb-a456-156f2b2225e2")
+		)
+		(pin "5"
+			(uuid "869079e0-6782-4c25-b4ef-b434e43f160d")
+		)
+		(pin "3"
+			(uuid "8c1dec4e-7234-49a4-a63f-060cd0493d6b")
+		)
+		(pin "6"
+			(uuid "242d3930-97d0-4fbf-bc82-5242f420896f")
+		)
+		(pin "4"
+			(uuid "47e39283-acc2-4741-a158-b87d0d858507")
+		)
+		(instances
+			(project "MPPT-Interface-Board"
+				(path "/b7de5949-1fc3-44b6-95a7-0faccc8a2b33"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -8030,7 +8185,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22.1k"
+		(property "Value" "5.1k"
 			(at 130.048 93.853 0)
 			(effects
 				(font
@@ -9076,75 +9231,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 67.31 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e62d67f6-54d2-4616-ba51-54fcd45c9c7d")
-		(property "Reference" "J2"
-			(at 66.04 24.384 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MPPT CAN 2"
-			(at 61.214 26.924 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical"
-			(at 67.31 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 67.31 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 67.31 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6bae4cf9-c9d3-428c-8d9b-d8915dd2c19f")
-		)
-		(pin "2"
-			(uuid "8c99a1af-14c6-4c08-bf02-efc18b0e4927")
-		)
-		(instances
-			(project "MPPT-Interface-Board"
-				(path "/b7de5949-1fc3-44b6-95a7-0faccc8a2b33"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+12V")
 		(at 123.19 26.67 0)
 		(unit 1)
@@ -9211,6 +9297,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 55.88 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e76db1b2-46ad-4bc7-9931-7542458e9770")
+		(property "Reference" "#PWR037"
+			(at 55.88 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "CGND2"
+			(at 55.88 42.164 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 55.88 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ebd62f50-1769-4083-a8e5-6817f34ac3b1")
+		)
+		(instances
+			(project "MPPT-Interface-Board"
+				(path "/b7de5949-1fc3-44b6-95a7-0faccc8a2b33"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDPWR")
 		(at 128.27 109.22 0)
 		(unit 1)
@@ -9271,6 +9422,72 @@
 			(project "MPPT-Interface-Board"
 				(path "/b7de5949-1fc3-44b6-95a7-0faccc8a2b33"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 55.88 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eb8853eb-5d6c-4752-916e-919fd1dca4a2")
+		(property "Reference" "#PWR036"
+			(at 55.88 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "V_CAN"
+			(at 52.832 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 55.88 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "88061795-889c-47d9-b3e6-c6a66b86d846")
+		)
+		(instances
+			(project "MPPT-Interface-Board"
+				(path "/b7de5949-1fc3-44b6-95a7-0faccc8a2b33"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -9528,7 +9745,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TODO"
+		(property "Value" "3.48k"
 			(at 151.638 93.853 0)
 			(effects
 				(font
