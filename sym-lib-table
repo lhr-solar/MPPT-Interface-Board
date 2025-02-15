@@ -6,4 +6,5 @@
   (lib (name "UTSVT-Misc")(type "KiCad")(uri "${KIPRJMOD}/UTSVT-KiCadLibraries/utsvt-misc.kicad_sym")(options "")(descr ""))
   (lib (name "UTSVT-PWR")(type "KiCad")(uri "${KIPRJMOD}/UTSVT-KiCadLibraries/utsvt-power-regulators.kicad_sym")(options "")(descr ""))
   (lib (name "ISO6721R-Q1")(type "KiCad")(uri "${KIPRJMOD}/Custom-KiCadLibraries/ISO6721R-Q1/2025-02-12_16-56-13.kicad_sym")(options "")(descr ""))
+  (lib (name "BZT52-B12-QX")(type "KiCad")(uri "${KIPRJMOD}/Custom-KiCadLibraries/BZT52-B12-QX/BZT52-B12-QX.kicad_sym")(options "")(descr ""))
 )
