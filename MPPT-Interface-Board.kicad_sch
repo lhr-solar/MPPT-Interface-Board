@@ -4752,6 +4752,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" ""
+			(at 96.52 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1da20d96-6314-49f7-b318-87ef21d2b8d3")
 		)
@@ -5285,6 +5294,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "0436500215"
+			(at 95.25 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a434b10b-95cb-406a-87a5-6bb37f312890")
 		)
@@ -5345,6 +5363,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 198.12 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "RI3-1209S"
 			(at 198.12 44.45 0)
 			(effects
 				(font
@@ -5494,7 +5521,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "CRCW080522K1FKEA"
+		(property "P/N" "CRCW08051K69FKEA"
 			(at 139.7 92.71 0)
 			(effects
 				(font
@@ -6698,6 +6725,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "08053C471JAT2A"
+			(at 210.82 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "443bb1e0-ff3b-46a1-938f-6c8c1c0d7e65")
 		)
@@ -6731,7 +6767,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10u"
 			(at 185.8772 96.393 0)
 			(effects
 				(font
@@ -7270,7 +7306,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10u"
 			(at 174.4472 96.393 0)
 			(effects
 				(font
@@ -7419,6 +7455,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 31.75 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
 			(at 31.75 87.63 0)
 			(effects
 				(font
@@ -7621,6 +7666,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 86.36 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
 			(at 86.36 96.52 0)
 			(effects
 				(font
@@ -8155,6 +8209,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" ""
+			(at 106.68 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dd7881a3-95ee-4cff-b856-4be9f755c298")
 		)
@@ -8221,7 +8284,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "CRCW080522K1FKEA"
+		(property "P/N" "RCA08055K10FKEA"
 			(at 128.27 92.71 0)
 			(effects
 				(font
@@ -8355,6 +8418,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 73.66 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
 			(at 73.66 95.25 0)
 			(effects
 				(font
@@ -8520,6 +8592,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 63.5 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
 			(at 63.5 95.25 0)
 			(effects
 				(font
@@ -8745,6 +8826,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 210.82 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "08053A331JAT2A"
 			(at 210.82 100.33 0)
 			(effects
 				(font
@@ -9056,6 +9146,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" ""
+			(at 53.34 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "54c00865-ffb2-4ff2-a68c-8cc623caf90d")
 		)
@@ -9188,7 +9287,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "C0805C105K3PACTU"
+		(property "P/N" "TMK212BBJ106MGHT"
 			(at 156.21 46.99 0)
 			(effects
 				(font
@@ -9781,7 +9880,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "CRCW080522K1FKEA"
+		(property "P/N" "CRCW08053K48FKEA"
 			(at 149.86 92.71 0)
 			(effects
 				(font
