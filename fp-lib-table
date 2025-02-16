@@ -7,4 +7,5 @@
   (lib (name "UTSVT-PWR")(type "KiCad")(uri "${KIPRJMOD}/UTSVT-KiCadLibraries/UTSVT_Power.pretty")(options "")(descr ""))
   (lib (name "UTSVT-Special")(type "KiCad")(uri "${KIPRJMOD}/UTSVT-KiCadLibraries/UTSVT_Special.pretty")(options "")(descr ""))
   (lib (name "ISO6721R-Q1")(type "KiCad")(uri "${KIPRJMOD}/Custom-KiCadLibraries/ISO6721R-Q1/footprints.pretty")(options "")(descr ""))
+  (lib (name "BZT52-B12-QX")(type "KiCad")(uri "${KIPRJMOD}/Custom-KiCadLibraries/BZT52-B12-QX/footprints.pretty")(options "")(descr ""))
 )
