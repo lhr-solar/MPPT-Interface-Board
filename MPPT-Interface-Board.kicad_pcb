@@ -15708,8 +15708,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "CGND2"
-		(at 129 102.840476 90)
+	(gr_text "CGND"
+		(at 129 102.078571 90)
 		(layer "F.SilkS" knockout)
 		(uuid "e2d05a4a-7ff7-4e1c-9377-29822d270927")
 		(effects
