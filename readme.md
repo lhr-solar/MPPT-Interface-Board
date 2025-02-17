@@ -1,11 +1,13 @@
 # MPPT-Interface-Board
 Author: Ravi Shah  
-This Power and CAN interface board for the TPPE SEC-B175-7A Maximum Power Point Tracker allows for easier debugging by switching between fuse box and external power sources and providing a plug-and-play CANdapter interface. Additionally, it isolates the MPPT CAN bus from CarCAN.
+This Power and CAN interface board for the TPPE SEC-B175-7A Maximum Power Point Tracker provides an interface allowing them to connect to fuse box power and CarCAN. The FIRST MPPT connector is for the first MPPT this board connects to. From there, up to 4 (unverified!) MPPTs can be daisy chained by connecting the output of the first MPPT to the input of the second and so on. The LAST MPPT connector is where the output of the last MPPT in the daisy chain should be connected. Since CarCAN on Daybreak operates at 5V, a 12V (fusebox) to 9V isolated buck converter is used to meet the minimum 6V requirement of the MPPTs.
 ## BOM
 Mouser Cart: https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=ef21a76273  
 IBOM: BOM/ibom.html (open and view in browser)
 ## Connectors
+TODO
 ## 3D Model
+
 ## PCB
 ## Schematic
 ## Application Note

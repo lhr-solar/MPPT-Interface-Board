@@ -3893,10 +3893,10 @@
 		)
 		(uuid c43351ca-4f21-4dd9-8cfc-bf871da1c396)
 	)
-	(text_box "Board Notes:\nThis board provides an interface for the TPEE MPPTs, allowing them to connect to fuse box power and CarCAN. The MPPT A connector is for the first MPPT this board connects to. From there, up to 4 (unverified!) MPPTs can be daisy chained by connecting the output of MPPT A to the input of MPPT B and so on. The MPPT X connector is where the output of the last MPPT in the daisy chain should be connected. Since CarCAN on Daybreak operates at 5V, a 12V (fusebox) to 9V isolated buck converter is used to meet the minimum 6V requirement of the MPPTs.\n\nAccording to MPPT datasheet, acceptable VCAN is 6V-48V. Each MPPT CAN transceiver draws 75mA nominal, so this board can support up to 4 MPPTs (unverified!)\n\nRef: https://www.tpee.nl/wp-content/uploads/2024/11/SEC-B175-7A-Datasheet-rev5.pdf\n\nSolder CAN TERM jumper if this board is a terminating end for CarCAN."
+	(text_box "Board Notes:\nThis board provides an interface for the TPEE MPPTs, allowing them to connect to fuse box power and CarCAN. The FIRST MPPT connector is for the first MPPT this board connects to. From there, up to 4 (unverified!) MPPTs can be daisy chained by connecting the output of the first MPPT to the input of the second and so on. The LAST MPPT connector is where the output of the last MPPT in the daisy chain should be connected. Since CarCAN on Daybreak operates at 5V, a 12V (fusebox) to 9V isolated buck converter is used to meet the minimum 6V requirement of the MPPTs.\n\nAccording to MPPT datasheet, acceptable VCAN is 6V-48V. Each MPPT CAN transceiver draws 75mA nominal, so this board can support up to 4 MPPTs (unverified!)\n\nRef: https://www.tpee.nl/wp-content/uploads/2024/11/SEC-B175-7A-Datasheet-rev5.pdf\n\nSolder CAN TERM jumper if this board is a terminating end for CarCAN."
 		(exclude_from_sim no)
 		(at 19.05 118.11 0)
-		(size 97.79 30.48)
+		(size 97.79 31.75)
 		(stroke
 			(width 0)
 			(type default)
