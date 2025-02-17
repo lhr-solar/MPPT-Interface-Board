@@ -484,7 +484,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "MPPT-Interface-Board.step",
       "svg": "",
       "vrml": ""
     },
