@@ -4589,7 +4589,7 @@
 				)
 			)
 		)
-		(property "Value" "LAST MPPT"
+		(property "Value" "FIRST MPPT"
 			(at 35.56 26.67 0)
 			(effects
 				(font
@@ -7030,7 +7030,7 @@
 				)
 			)
 		)
-		(property "Value" "FIRST MPPT"
+		(property "Value" "LAST MPPT"
 			(at 67.31 26.67 0)
 			(effects
 				(font
