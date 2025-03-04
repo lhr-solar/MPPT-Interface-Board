@@ -5,7 +5,13 @@ This Power and CAN interface board for the TPPE SEC-B175-7A Maximum Power Point 
 Mouser Cart: https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=ef21a76273  
 IBOM: BOM/ibom.html (open and view in browser)
 ## Connectors
-TODO
+| # | Name | Type | Ideal Voltage |
+| - | - | - | - |
+| J1  | FIRST MPPT | Micro-Fit_3.0_43045-0612_2x03_P3.00mm_Vertical Female | +9V |
+| J2  | LAST MPPT | Micro-Fit_3.0_43045-0612_2x03_P3.00mm_Vertical Female | +9V |
+| J3  | CarCAN IN | Micro-Fit_3.0_43650-0415_1x04_P3.00mm_Vertical Female | +5V |
+| J4  | CarCAN OUT | Micro-Fit_3.0_43650-0415_1x04_P3.00mm_Vertical Female | +5V |
+| J5  | FUSEBOX | Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical Female | +12V |
 ## 3D Model
 ![image](https://github.com/user-attachments/assets/b9f51563-b8e6-491c-8bcf-144f7e9c13bb)
 ## PCB
