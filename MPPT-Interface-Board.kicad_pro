@@ -484,7 +484,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "3D/MPPT-Interface-Board.step",
+      "step": "../../../../../Downloads/data-acq-interface3.step",
       "svg": "",
       "vrml": ""
     },
